@@ -1,0 +1,16 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.header {
+   display: flex;
+   width: 200px;
+   height: 50px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   text-align: center;
+}
+.timer {
+   float:right;
+}
