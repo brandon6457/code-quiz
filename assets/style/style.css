@@ -15,8 +15,12 @@ header {
    display: flex;
    float:right;
 }
-section {
+.section {
+   width: 800px;
    display: flex;
+   margin-top: 100px;
+   text-align: center;
+   padding-left: 150px;
 }
 h1, p, .footer {
    text-align: center;
