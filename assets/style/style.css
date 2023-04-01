@@ -1,26 +1,19 @@
-*, {
-  box-sizing: border-box;
-}
-header {
-   width: 200px;
+.header {
    height: 50px;
    margin-top: 10px;
    margin-bottom: 10px;
+   display: flex;
+   justify-content: space-between;
 }
 .scores {
-   display: flex;
-   float: left;
+   color: blueviolet;
 }
-.timer {
-   display: flex;
-   float:right;
-}
+
 .section {
    width: 800px;
    display: flex;
    margin-top: 100px;
-   text-align: center;
-   padding-left: 150px;
+   padding-left: 250px;
 }
 h1, p, .footer {
    text-align: center;
@@ -28,4 +21,9 @@ h1, p, .footer {
 p {
    display: flex;
    font-size: 20px;
+}
+.btn {
+   background-color: blueviolet;
+   color: white;
+   border-radius: 3px;
 }
