@@ -1,16 +1,27 @@
-*,
-*::before,
-*::after {
+*, {
   box-sizing: border-box;
 }
-.header {
-   display: flex;
+header {
    width: 200px;
    height: 50px;
    margin-top: 10px;
    margin-bottom: 10px;
-   text-align: center;
+}
+.scores {
+   display: flex;
+   float: left;
 }
 .timer {
+   display: flex;
    float:right;
+}
+section {
+   display: flex;
+}
+h1, p, .footer {
+   text-align: center;
+}
+p {
+   display: flex;
+   font-size: 20px;
 }
