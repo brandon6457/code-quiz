@@ -3,6 +3,9 @@
    padding: o;
    box-sizing: border-box;
 }
+li {
+   list-style: none;
+}
 .wrapper{
    padding: 10px;
    height: 10vh;
@@ -16,10 +19,10 @@
 .header h4{
    color: blueviolet
 }
-.section {
+.main-section {
    display: flex;
 }
-.quiz-intro {
+.quiz-intro, main {
    height: 100%;
    width: 50%;
    margin: 0 auto;
@@ -30,8 +33,23 @@
    display: flex;
    font-size: 20px;
 }
-.btn {
+button {
    background-color: blueviolet;
    color: white;
    border-radius: 3px;
+}
+.quiz-intro {
+   display: block;
+}
+.questions {
+   display: none;
+}
+.quiz-end {
+   display: none;
+}
+.hs-screen {
+   display: none;
+}
+main {
+   display: none;
 }
