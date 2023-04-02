@@ -22,7 +22,7 @@ li {
 .main-section {
    display: flex;
 }
-.quiz-intro, main {
+.quiz, main {
    height: 100%;
    width: 50%;
    margin: 0 auto;
@@ -48,8 +48,5 @@ button {
    display: none;
 }
 .hs-screen {
-   display: none;
-}
-main {
    display: none;
 }
