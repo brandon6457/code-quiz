@@ -1,24 +1,32 @@
-.header {
-   height: 50px;
-   margin-top: 10px;
-   margin-bottom: 10px;
+* {
+   margin: 0;
+   padding: o;
+   box-sizing: border-box;
+}
+.wrapper{
+   padding: 10px;
+   height: 10vh;
    display: flex;
-   justify-content: space-between;
+   flex-direction: column;
+   justify-content: start;
 }
-.scores {
-   color: blueviolet;
+.header p {
+   float: right;
 }
-
+.header h4{
+   color: blueviolet
+}
 .section {
-   width: 800px;
    display: flex;
-   margin-top: 100px;
-   padding-left: 250px;
 }
-h1, p, .footer {
+.quiz-intro {
+   height: 100%;
+   width: 50%;
+   margin: 0 auto;
    text-align: center;
+   margin-top: 10%;
 }
-p {
+.quiz-intro p {
    display: flex;
    font-size: 20px;
 }
