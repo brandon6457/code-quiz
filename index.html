@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,19 +20,14 @@
          <div class="quiz-intro">
             <h1>Coding Quiz Challenge</h1>
             <p>Try to answer the code-related questions in the alloted time limit. Incorrect answers will deduct ten seconds from your time. Scores will be posted by highest remaining time. Can you be the best?</p>
-            <button id="start" class="btn">Start Quiz</button>
+            <button id="start" class="btn btnstart">Start Quiz</button>
          </div>
          <main>
-            <section class="questions">
-               <h2>Question here</h2>
-               <ul>
-                  <li><button>1: Answer</button></li>
-                  <li><button>2: Answer</button></li>
-                  <li><button>3: Answer</button></li>
-                  <li><button>4: Answer</button></li>
-               </ul>
+            <section class="hide" id="questions">
+               <h2 id="question-title"></h2>
+               <div id="choices" class="choices"></div>
             </section>
-            <section class="quiz-end">
+            <section class="hide" id="quiz-end">
                <h2>Congratulations! You Finished!</h2>
                <p>Your Final Score Is: 00</p>
                <div>
@@ -42,13 +36,11 @@
                   <button>Submit</button>
                </div>
             </section>
-            <section class="hs-screen">
-              
-            </section>
          </main>
       </div>
    </div>
-   <script src="./assets/js/js script.js"></script>
+   <script src="./assets/js/script.js"></script>
+   <script src="./assets/js/questions.js"></script>
 </body>
 
 </html>
