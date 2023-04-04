@@ -1,12 +1,12 @@
 var quizIntro = document.querySelector(".quiz-intro");
 var btnStart = document.querySelector("#start");
 var questions = document.querySelector("#questions");
+var choices = document.querySelector("#choices");
 var quizEnd = document.querySelector("#quiz-end");
 var currentQuestionIndex = 0;
 function startQuiz() {
-   quizIntro.setAttribute("style", "display:none");
+   quizIntro.style.display = "none";
    getQuestions()
-   questions.setAttribute("style", "display:block");
 }
 function getQuestions() {
    var currentQuestion = questions[currentQuestionIndex];
